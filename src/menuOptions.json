@@ -1,0 +1,17 @@
+{
+    "options": [
+      {
+        "label": "Add Folder",
+        "action": "addFolder"
+      },
+      {
+        "label": "Add File",
+        "subOptions": [
+          { "label": "Word", "action": "addWordFile" },
+          { "label": "Excel", "action": "addExcelFile" },
+          { "label": "PowerPoint", "action": "addPowerPointFile" }
+        ]
+      }
+    ]
+  }
+  

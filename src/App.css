@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
+/* login css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login-screen{
+  background-image: url("/public/images/Wallpaper.png");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  
+}
+
+.login-section {
+  
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 60px;
+}
+
+.login-img {
+  height: 200px;
+}
+
+.input {
+  background-color: rgba(119, 118, 118, 0.5);
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.button-login {
+  background-color: rgb(51, 50, 50);
   color: white;
+  border: none;
+  border-radius: 20px;
+  width: 58%;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+/* dashboard css */
+
+.dashboard-screen {
+  background-image: url("/public/images/Wallpaper.png");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header nav {
+  text-align: right;
+  margin-right: 20px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 10px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Optional: Style the links */
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+.app-imgs {
+  display: grid;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 15px;
+  width: 8%;
+  right: 20px;
+  position: absolute;
 }
